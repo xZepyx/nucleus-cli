@@ -162,16 +162,13 @@ int main(int argc, char *argv[]) {
             std::string action = (i + 1 < argc) ? argv[i + 1] : ""; // get the action (either call or show)
             if (action == "show") {
                 ipc::show();
-                i += 2; // ipc + show
             }
             else if (action == "call") {
                 std::string args = (i + 4 < argc) ? argv[i + 4] : "";
                 ipc::call(argv[i+2], argv[i+3], args);
-                i += 5; // ipc + call + target + func + optional args
             }
             else {
                 prompt::Fail("No Target/Function Passed");
-                i += 2; // skip ipc + unknown
             }
         }
         else if (arg == "update") {
@@ -217,11 +214,6 @@ int main(int argc, char *argv[]) {
             }
             i++;
         } 
-        else {
-            std::cout << "Unknown command: " << arg << "\n\n";
-            printUsage();
-            i++;
-        }
     }
 
     return 0;
