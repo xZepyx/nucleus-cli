@@ -27,3 +27,6 @@ add_executable(nucleus ${SOURCES})
 # Link libraries
 find_package(CURL REQUIRED)
 target_link_libraries(nucleus PRIVATE CURL::libcurl pthread)
+
+install(TARGETS nucleus
+        RUNTIME DESTINATION bin)
