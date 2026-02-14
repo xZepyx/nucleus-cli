@@ -162,16 +162,16 @@ int main(int argc, char *argv[]) {
             std::string action = (i + 1 < argc) ? argv[i + 1] : ""; // get the action (either call or show)
             if (action == "show") {
                 ipc::show();
-		i++;
+		i+=2;
             }
             else if (action == "call") {
                 std::string args = (i + 4 < argc) ? argv[i + 4] : "";
                 ipc::call(argv[i+2], argv[i+3], args);
-		i++;
+		i+=5;
             }
             else {
                 prompt::Fail("No Target/Function Passed");
-		i++;
+		i+=2;
             }
         }
         else if (arg == "update") {
