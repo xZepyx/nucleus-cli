@@ -1,3 +1,0 @@
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/nucleus.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/edit_cache.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/rebuild_cache.dir
