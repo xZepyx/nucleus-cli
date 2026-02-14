@@ -1,7 +1,0 @@
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/nucleus.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/edit_cache.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/rebuild_cache.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/list_install_components.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/install.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/install/local.dir
-/home/zepyx/Projects/Git/nucleus-cli/build/CMakeFiles/install/strip.dir

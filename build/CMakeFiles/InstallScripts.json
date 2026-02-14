@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/zepyx/Projects/Git/nucleus-cli/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

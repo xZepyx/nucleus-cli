@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/nucleus.dir/link.d CMakeFiles/nucleus.dir/src/main.cpp.o CMakeFiles/nucleus.dir/src/cmd/install/install.cpp.o CMakeFiles/nucleus.dir/src/cmd/ipc/ipc.cpp.o CMakeFiles/nucleus.dir/src/cmd/theme/theme.cpp.o CMakeFiles/nucleus.dir/src/cmd/update/update.cpp.o -o nucleus  /usr/lib/libcurl.so -lpthread /usr/lib/libcurl.so
